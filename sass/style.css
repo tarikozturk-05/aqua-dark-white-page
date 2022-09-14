@@ -44,6 +44,22 @@ img {
   text-align: center;
 }
 
+.app__container {
+  gap: 2.5rem;
+}
+.app__data {
+  text-align: center;
+}
+.app__description {
+  margin-bottom: var(--mb-1-5);
+}
+.app__buttons {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  justify-content: center;
+  gap: 0.5rem;
+}
+
 .button {
   display: inline-block;
   background-color: var(--first-color);
@@ -66,6 +82,15 @@ img {
 }
 .button__link:hover {
   background-color: transparent;
+}
+.button__icon {
+  font-size: 1.5rem;
+}
+.button-flex {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.25rem;
+  padding: 0.75rem 1rem;
 }
 
 .header {
