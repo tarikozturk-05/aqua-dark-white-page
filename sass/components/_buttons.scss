@@ -2,4 +2,18 @@
     &__header{
         display: none;
     }
+    display: inline-block;
+    background-color:var(--first-color);
+    color: black;
+    padding: .75rem 1.5rem;
+    border-radius: 3rem;
+    font-weight: var(--font-semi-bold);
+    transition: .3s;
+    &:hover{
+        background-color: var(--first-color-alt);
+
+        
+    }
+
+
 }
