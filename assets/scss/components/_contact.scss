@@ -1,15 +1,13 @@
+/*=============== CONTACT ===============*/
 .contact{
     &__container{
         padding-bottom: 3rem;
-
     }
     &__description{
         text-align: center;
-    
     }
     &__content{
-        row-gap: 0.75rem;
-
+        row-gap: .75rem;
     }
     &__address{
         font-size: var(--small-font-size);
@@ -19,6 +17,5 @@
     &__information{
         font-weight: initial;
         color: var(--text-color);
-        
     }
 }

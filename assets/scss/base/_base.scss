@@ -1,12 +1,14 @@
+/*=============== BASE ===============*/
 *,::before,::after{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+
 html{
     scroll-behavior: smooth;
-
 }
+
 body{
     margin: var(--header-height) 0 0 0;
     font-family: var(--body-font);
@@ -32,7 +34,3 @@ img{
     max-width: 100%;
     height: auto;
 }
-
-
-
-
